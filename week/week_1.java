@@ -18,7 +18,7 @@ public class week_1 {
     	 System.out.println("...");
 
 	switch(c*b){
-	case 10 :
+	case 1 :
 		System.out.println("hello world");
 		break;
 	case 15 :
