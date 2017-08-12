@@ -11,8 +11,8 @@ class GetRandom{
 	}//返回一个1到100的随机数字
 }
 class Game{
-	 int m=0;
-	 int k=-1;
+	public int m=0;
+	 public int k=-1;
 	public void A(){
 		GetRandom ran=new GetRandom();
 		Scanner a=new Scanner(System.in);
@@ -85,7 +85,7 @@ class Inputjudge{
 	}
 }
 class Rank{
-	static public int a[]={99,99,99,99,99,99,99,99,99,99};
+	static public int[] a=new int[10];
 	public void rank(int x,int y){
 		if(y<=9){
 			a[y]=x;
